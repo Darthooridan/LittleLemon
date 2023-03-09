@@ -79,6 +79,7 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+<<<<<<< HEAD
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -90,6 +91,20 @@ DATABASES = {
  'OPTIONS': {
  'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
     }
+=======
+DATABASES ={  
+    'default': {  
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'LittleLemon',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'OPTIONS': {
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }  
+    }  
+>>>>>>> 124c6ff9139c72c8a94d17c00fc81e3d6e36ba22
 }
 }
 
